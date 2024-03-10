@@ -12,10 +12,7 @@ public class Spring6DiApplication {
         ApplicationContext ctx = SpringApplication.run(Spring6DiApplication.class, args);
 
         MyController controller = ctx.getBean(MyController.class);
-
         System.out.println("In Main Method");
-
         System.out.println(controller.sayHello());
     }
-
 }
