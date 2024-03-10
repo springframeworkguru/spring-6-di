@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by jt, Spring Framework Guru.
  */
+
+/* conventional way without dependency injection */
 @Controller
 public class MyController {
 
