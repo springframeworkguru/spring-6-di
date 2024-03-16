@@ -17,6 +17,7 @@ public class Spring6DiApplication {
         System.out.println("In main method");
 
         System.out.println(controller.SeyHello());
+
     }
 
 }
