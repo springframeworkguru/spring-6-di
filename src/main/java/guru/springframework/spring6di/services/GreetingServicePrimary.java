@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by jt, Spring Framework Guru.
  */
-@Primary
+//@Primary
 @Service
 public class GreetingServicePrimary implements GreetingService {
 
