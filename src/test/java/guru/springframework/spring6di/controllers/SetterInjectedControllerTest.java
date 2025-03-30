@@ -10,10 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class SetterInjectedControllerTest {
-
     @Autowired
     SetterInjectedController setterInjectedController;
-
     @Test
     void sayHello() {
         System.out.println(setterInjectedController.sayHello());

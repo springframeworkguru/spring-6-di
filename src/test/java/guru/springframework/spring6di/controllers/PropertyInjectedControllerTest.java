@@ -6,13 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class PropertyInjectedControllerTest {
-
     @Autowired
     PropertyInjectedController propertyInjectedController;
-
     @Test
     void sayHello() {
         System.out.println(propertyInjectedController.sayHello());
-
     }
 }
